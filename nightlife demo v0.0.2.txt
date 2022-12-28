@@ -1,0 +1,720 @@
+[
+	{
+		"quests": [
+			{
+				"one_time": false,
+				"decline": "Decline",
+				"quest_id": 1.0,
+				"desc": "bank robbery test",
+				"take_delay": 1672262038.0,
+				"accept": "Accept",
+				"tasks": [
+					{
+						"amount": 14.0,
+						"itemid": "BRCash",
+						"finished": false,
+						"task_type": "take_items",
+						"sequential": false,
+						"quest_id": 1.0
+					},
+					{
+						"sequential": false,
+						"spawned": false,
+						"task_type": "give_weapon",
+						"weapon": "m9k_mp5",
+						"quest_id": 1.0
+					},
+					{
+						"sequential": true,
+						"spawned": false,
+						"task_type": "give_weapon",
+						"quest_id": 1.0,
+						"weapon": "m9k_m92beretta"
+					},
+					{
+						"amount": 300.0,
+						"ammo": "SMG1",
+						"spawned": false,
+						"task_type": "give_ammo",
+						"sequential": false,
+						"quest_id": 1.0
+					},
+					{
+						"amount": 100.0,
+						"ammo": "Pistol",
+						"spawned": false,
+						"task_type": "give_ammo",
+						"sequential": true,
+						"quest_id": 1.0
+					},
+					{
+						"sequential": true,
+						"pos": "[-6479.125 -2903.4375 -239.75]",
+						"spawned": false,
+						"ang": "{0 -90 0}",
+						"simfphys_name": "sim_fphys_gta4_e109",
+						"task_type": "spawn_simfphys",
+						"quest_id": 1.0
+					},
+					{
+						"show_hud": true,
+						"info": "Drive to the Bank Of Union",
+						"color": {
+							"r": 255.0,
+							"b": 255.0,
+							"a": 255.0,
+							"g": 255.0
+						},
+						"hidden": true,
+						"draw_shape": true,
+						"distance": 300.0,
+						"fail_quest": false,
+						"sequential": true,
+						"pos": "[-1650.75 1370.5 -111.9688]",
+						"disc": false,
+						"finished": false,
+						"vehicle_only": false,
+						"task_type": "reach_point",
+						"quest_id": 1.0,
+						"aerial": false
+					},
+					{
+						"health": 100.0,
+						"sequential": true,
+						"finished": false,
+						"ang": "{3.625 179.0313 0}",
+						"weapon": "weapon_vj_senpistol",
+						"persist": false,
+						"random_range": 1.0,
+						"class": "npc_vj_csecuh",
+						"remove_id": "",
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-705.75 2434.75 -102.9688]",
+						"waves": 1.0,
+						"spawned": false,
+						"no_physics": false,
+						"task_type": "spawn_entity",
+						"model": "",
+						"wave_delay": 0.0
+					},
+					{
+						"waves": 1.0,
+						"sequential": false,
+						"no_physics": false,
+						"ang": "{0 -93.375 0}",
+						"weapon": "weapon_vj_senpistol",
+						"persist": false,
+						"random_range": 1.0,
+						"class": "npc_vj_csecuh",
+						"model": "",
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-715.0313 2616 -103.9688]",
+						"health": 100.0,
+						"spawned": false,
+						"finished": false,
+						"task_type": "spawn_entity",
+						"remove_id": "",
+						"wave_delay": 0.0
+					},
+					{
+						"sequential": true,
+						"hidden": true,
+						"talkername": "",
+						"finished": false,
+						"vendor_id": 7.0,
+						"task_type": "talk_to",
+						"makedialogue": true,
+						"quest_id": 1.0
+					},
+					{
+						"show_hud": true,
+						"info": "Disable the doors",
+						"hidden": true,
+						"color": {
+							"r": 255.0,
+							"b": 255.0,
+							"a": 255.0,
+							"g": 255.0
+						},
+						"quest_id": 1.0,
+						"task_type": "reach_point",
+						"fail_quest": false,
+						"sequential": true,
+						"pos": "[-943.5313 2910.0938 -103.9688]",
+						"disc": false,
+						"finished": false,
+						"vehicle_only": false,
+						"distance": 40.0,
+						"draw_shape": false,
+						"aerial": false
+					},
+					{
+						"show_hud": true,
+						"info": "Open the Vault",
+						"hidden": true,
+						"color": {
+							"r": 255.0,
+							"b": 255.0,
+							"a": 255.0,
+							"g": 255.0
+						},
+						"quest_id": 1.0,
+						"task_type": "reach_point",
+						"fail_quest": false,
+						"sequential": true,
+						"pos": "[-1109.7188 3027.125 -103.9688]",
+						"disc": false,
+						"finished": false,
+						"vehicle_only": false,
+						"distance": 40.0,
+						"draw_shape": false,
+						"aerial": false
+					},
+					{
+						"sequential": true,
+						"info": "Renforcments",
+						"spawned": false,
+						"task_type": "send_notification",
+						"msg_type": "bell",
+						"quest_id": 1.0
+					},
+					{
+						"health": 100.0,
+						"sequential": true,
+						"finished": false,
+						"ang": "{0 0 0}",
+						"weapon": "weapon_vj_senpistolcop",
+						"persist": false,
+						"random_range": 100.0,
+						"class": "npc_vj_csecuh",
+						"remove_id": "",
+						"quest_id": 1.0,
+						"amount": 2.0,
+						"pos": "[-1013 2516.4375 -103]",
+						"waves": 1.0,
+						"spawned": false,
+						"no_physics": false,
+						"task_type": "spawn_entity",
+						"model": "",
+						"wave_delay": 5.0
+					},
+					{
+						"sequential": false,
+						"cached": false,
+						"info": "",
+						"hidden": false,
+						"killcount": 6.0,
+						"class": "npc_vj_csecuh",
+						"task_type": "kill_npc",
+						"quest_id": 1.0
+					},
+					{
+						"waves": 1.0,
+						"sequential": true,
+						"no_physics": false,
+						"ang": "{0 -90 0}",
+						"weapon": "weapon_vj_senpistol",
+						"persist": false,
+						"random_range": 1.0,
+						"class": "npc_vj_csecuh",
+						"model": "",
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-481.75 3314.9688 -103.9688]",
+						"health": 100.0,
+						"spawned": false,
+						"finished": false,
+						"task_type": "spawn_entity",
+						"remove_id": "",
+						"wave_delay": 0.0
+					},
+					{
+						"health": 100.0,
+						"sequential": true,
+						"finished": false,
+						"ang": "{24.1563 92.7188 0}",
+						"weapon": "weapon_vj_senpistol",
+						"persist": false,
+						"random_range": 1.0,
+						"class": "npc_vj_csecuh",
+						"remove_id": "",
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-1130.6875 3045.9375 -279.9688]",
+						"waves": 1.0,
+						"spawned": false,
+						"no_physics": false,
+						"task_type": "spawn_entity",
+						"model": "",
+						"wave_delay": 0.0
+					},
+					{
+						"itemname": "Cash",
+						"random_range": 32.0,
+						"model": "models/player/spike/stack.mdl",
+						"halo": true,
+						"quest_id": 1.0,
+						"amount": 5.0,
+						"pos": "[-1560.7813 2977.5 -258.5938]",
+						"pickup_sound": "common/wpn_hudoff.wav",
+						"spawned": false,
+						"itemid": "BRCash",
+						"task_type": "spawn_item",
+						"forplayer": true,
+						"sequential": true
+					},
+					{
+						"itemname": "Cash",
+						"random_range": 32.0,
+						"model": "models/player/spike/stack.mdl",
+						"sequential": true,
+						"quest_id": 1.0,
+						"amount": 5.0,
+						"pos": "[-1553.5938 3404.2188 -258.5938]",
+						"spawned": false,
+						"pickup_sound": "common/wpn_hudoff.wav",
+						"itemid": "BRCash",
+						"task_type": "spawn_item",
+						"forplayer": true,
+						"halo": false
+					},
+					{
+						"itemname": "Cash",
+						"random_range": 10.0,
+						"model": "models/player/spike/stack.mdl",
+						"halo": true,
+						"quest_id": 1.0,
+						"sequential": false,
+						"pos": "[-1798.75 3518.5313 -261.9688]",
+						"pickup_sound": "common/wpn_hudoff.wav",
+						"spawned": false,
+						"itemid": "BRCash",
+						"task_type": "spawn_item",
+						"forplayer": true,
+						"amount": 1.0
+					},
+					{
+						"itemname": "Cash",
+						"random_range": 10.0,
+						"model": "models/player/spike/stack.mdl",
+						"amount": 1.0,
+						"quest_id": 1.0,
+						"sequential": false,
+						"pos": "[-1836.3438 3515.3438 -229.9688]",
+						"spawned": false,
+						"pickup_sound": "common/wpn_hudoff.wav",
+						"itemid": "BRCash",
+						"task_type": "spawn_item",
+						"forplayer": true,
+						"halo": true
+					},
+					{
+						"itemname": "Cash",
+						"random_range": 10.0,
+						"model": "models/player/spike/stack.mdl",
+						"halo": true,
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-1856.5313 2979.5938 -229.9688]",
+						"pickup_sound": "common/wpn_hudoff.wav",
+						"spawned": false,
+						"itemid": "BRCash",
+						"task_type": "spawn_item",
+						"forplayer": true,
+						"sequential": false
+					},
+					{
+						"itemname": "Cash",
+						"random_range": 10.0,
+						"model": "models/player/spike/stack.mdl",
+						"sequential": false,
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-1781 2979.4063 -229.9688]",
+						"spawned": false,
+						"pickup_sound": "common/wpn_hudoff.wav",
+						"itemid": "BRCash",
+						"task_type": "spawn_item",
+						"forplayer": true,
+						"halo": true
+					},
+					{
+						"amount": 14.0,
+						"itemid": "BRCash",
+						"info": "Collect the Cash",
+						"hidden": true,
+						"task_type": "find_items",
+						"sequential": true,
+						"quest_id": 1.0
+					},
+					{
+						"sequential": true,
+						"info": "Renforcments",
+						"spawned": false,
+						"task_type": "send_notification",
+						"quest_id": 1.0,
+						"msg_type": "bell"
+					},
+					{
+						"waves": 1.0,
+						"sequential": true,
+						"no_physics": false,
+						"ang": "{0 -180 0}",
+						"weapon": "weapon_vj_sencarbineswat",
+						"persist": true,
+						"random_range": 32.0,
+						"class": "npc_vj_csecuspeh",
+						"model": "",
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-1178.6875 3191 -279.9688]",
+						"health": 100.0,
+						"spawned": false,
+						"finished": false,
+						"task_type": "spawn_entity",
+						"remove_id": "",
+						"wave_delay": 30.0
+					},
+					{
+						"health": 100.0,
+						"sequential": true,
+						"finished": false,
+						"ang": "{0 90 0}",
+						"weapon": "weapon_vj_sencarbineswat",
+						"persist": true,
+						"random_range": 32.0,
+						"class": "npc_vj_csecuspeh",
+						"remove_id": "",
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-503.0625 2467.9688 -103.9688]",
+						"waves": 1.0,
+						"spawned": false,
+						"no_physics": false,
+						"task_type": "spawn_entity",
+						"model": "",
+						"wave_delay": 30.0
+					},
+					{
+						"waves": 1.0,
+						"sequential": true,
+						"no_physics": false,
+						"ang": "{0 58.625 0}",
+						"weapon": "weapon_vj_senpumpshotswat",
+						"persist": true,
+						"random_range": 32.0,
+						"class": "npc_vj_csecuspeh",
+						"model": "",
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-1779.2813 1827.1563 -111.9688]",
+						"health": 100.0,
+						"spawned": false,
+						"finished": false,
+						"task_type": "spawn_entity",
+						"remove_id": "",
+						"wave_delay": 30.0
+					},
+					{
+						"health": 100.0,
+						"sequential": true,
+						"finished": false,
+						"ang": "{0 121.7813 0}",
+						"weapon": "weapon_vj_senpumpshotswat",
+						"persist": true,
+						"random_range": 32.0,
+						"class": "npc_vj_csecuspeh",
+						"remove_id": "",
+						"quest_id": 1.0,
+						"amount": 1.0,
+						"pos": "[-1352.9375 1921.5 -103.9688]",
+						"waves": 1.0,
+						"spawned": false,
+						"no_physics": false,
+						"task_type": "spawn_entity",
+						"model": "",
+						"wave_delay": 30.0
+					},
+					{
+						"waves": 2.0,
+						"sequential": true,
+						"no_physics": false,
+						"ang": "{0 0 0}",
+						"weapon": "weapon_vj_sencarbineswat",
+						"persist": false,
+						"random_range": 80.0,
+						"class": "npc_vj_csecuspeh",
+						"model": "",
+						"quest_id": 1.0,
+						"amount": 3.0,
+						"pos": "[-1493.6875 2483 -103.9688]",
+						"health": 100.0,
+						"spawned": false,
+						"finished": false,
+						"task_type": "spawn_entity",
+						"remove_id": "",
+						"wave_delay": 5.0
+					},
+					{
+						"sequential": false,
+						"quest_id": 1.0,
+						"info": "Kill the other cop guys",
+						"hidden": false,
+						"task_type": "kill_npc",
+						"killcount": 6.0,
+						"class": "npc_vj_csecuspeh",
+						"cached": false
+					},
+					{
+						"show_hud": true,
+						"info": "Get back to the storage units",
+						"hidden": true,
+						"color": {
+							"r": 255.0,
+							"b": 255.0,
+							"a": 255.0,
+							"g": 255.0
+						},
+						"quest_id": 1.0,
+						"task_type": "reach_point",
+						"fail_quest": false,
+						"sequential": true,
+						"pos": "[-4406.7813 -1634.6563 -0.0938]",
+						"disc": false,
+						"finished": false,
+						"vehicle_only": false,
+						"distance": 128.0,
+						"draw_shape": false,
+						"aerial": false
+					},
+					{
+						"sequential": true,
+						"info": "Theres to much police here, go to the peer instead!",
+						"spawned": false,
+						"task_type": "send_notification",
+						"quest_id": 1.0,
+						"msg_type": "bell"
+					},
+					{
+						"show_hud": true,
+						"info": "",
+						"hidden": true,
+						"color": {
+							"r": 255.0,
+							"b": 255.0,
+							"a": 255.0,
+							"g": 255.0
+						},
+						"quest_id": 1.0,
+						"task_type": "reach_point",
+						"fail_quest": false,
+						"sequential": true,
+						"pos": "[6264.1563 -5248.7813 -319.9688]",
+						"disc": false,
+						"finished": false,
+						"vehicle_only": false,
+						"distance": 128.0,
+						"draw_shape": false,
+						"aerial": false
+					},
+					{
+						"health": 100.0,
+						"sequential": true,
+						"finished": false,
+						"ang": "{23.4375 -91.6563 0}",
+						"weapon": "weapon_vj_sensmgswat",
+						"persist": false,
+						"random_range": 90.0,
+						"class": "npc_vj_csecuspeh",
+						"remove_id": "",
+						"quest_id": 1.0,
+						"amount": 3.0,
+						"pos": "[5213.4063 -4361.125 -295.875]",
+						"waves": 3.0,
+						"spawned": false,
+						"no_physics": false,
+						"task_type": "spawn_entity",
+						"model": "",
+						"wave_delay": 3.0
+					},
+					{
+						"sequential": false,
+						"quest_id": 1.0,
+						"info": "Survive the Sucirity pursuit",
+						"hidden": false,
+						"killcount": 9.0,
+						"class": "npc_vj_csecuspeh",
+						"task_type": "kill_npc",
+						"cached": false
+					},
+					{
+						"amount": 14.0,
+						"itemid": "BRCash",
+						"finished": false,
+						"task_type": "take_items",
+						"sequential": true,
+						"quest_id": 1.0
+					}
+				],
+				"name": "bank robbery test",
+				"reward": [
+					{
+						"reputation": 500.0,
+						"task_type": "add_reputation",
+						"quest_id": 1.0
+					}
+				]
+			}
+		],
+		"scale": 1.0,
+		"angles": "{0 255.9598 0}",
+		"dialogue": [
+			{
+				"question": "default",
+				"unique_id": 1.0,
+				"answer": "Greetings"
+			},
+			{
+				"question": "quit",
+				"unique_id": 3.0,
+				"answer": "quit"
+			},
+			{
+				"question": "edit",
+				"unique_id": 5.0,
+				"answer": "edit"
+			},
+			{
+				"question": "quest",
+				"unique_id": 7.0,
+				"answer": "quest_list"
+			}
+		],
+		"model": "models/sentry/sentrycag/clannyinmatesblue/male_08.mdl",
+		"color": {
+			"r": 40.0,
+			"b": 252.0,
+			"a": 255.0,
+			"g": 79.0
+		},
+		"pos": "[-6646.8296 -3109.9507 -319.9688]",
+		"skin": 0.0,
+		"nametag": false,
+		"name": "bank rob test",
+		"bodygroups": {
+			"0": 0.0,
+			"1": 0.0,
+			"2": 0.0,
+			"3": 0.0
+		},
+		"vendorid": 4.0,
+		"class": "na_npc_talker"
+	},
+	{
+		"quests": [
+			{
+				"blacklist": {
+					"STEAM_0:1:509435523": 1672260336.0
+				},
+				"one_time": false,
+				"decline": "no lol",
+				"quest_id": 1.0,
+				"desc": "please",
+				"take_delay": 1672260276.0,
+				"accept": "Accept",
+				"tasks": [
+					{
+						"amount": 14.0,
+						"itemid": "BRCash",
+						"finished": false,
+						"task_type": "take_items",
+						"sequential": false,
+						"quest_id": 1.0
+					}
+				],
+				"name": "get rid of all this shit",
+				"reward": []
+			}
+		],
+		"scale": 1.0,
+		"angles": "{0 298.9816 0}",
+		"dialogue": {
+			"1": {
+				"question": "default",
+				"unique_id": 1.0,
+				"answer": "Greetings"
+			},
+			"3": {
+				"question": "Quest",
+				"unique_id": 7.0,
+				"answer": "quest_list"
+			},
+			"4": {
+				"question": "Edit",
+				"unique_id": 8.0,
+				"answer": "edit"
+			}
+		},
+		"model": "models/monk.mdl",
+		"color": {
+			"r": 179.0,
+			"b": 255.0,
+			"a": 255.0,
+			"g": 102.0
+		},
+		"pos": "[-7198.332 -3340.2542 -319.9688]",
+		"skin": 0.0,
+		"nametag": false,
+		"name": "Sidorovich",
+		"bodygroups": {
+			"0": 0.0
+		},
+		"vendorid": 6.0,
+		"class": "na_npc_talker"
+	},
+	{
+		"quests": [],
+		"scale": 1.0,
+		"angles": "{0 -96.7304 0}",
+		"dialogue": {
+			"1": {
+				"branch": [
+					{
+						"question": "yes",
+						"unique_id": 4.0,
+						"answer": "quest_dialogue_complete"
+					}
+				],
+				"answer": "oh bno im being robbed",
+				"quest": 1.0,
+				"question": "your being robbed",
+				"unique_id": 3.0,
+				"quest_giver": 4.0
+			},
+			"4": {
+				"question": "Edit",
+				"unique_id": 8.0,
+				"answer": "edit"
+			}
+		},
+		"model": "models/kleiner.mdl",
+		"color": {
+			"r": 179.0,
+			"b": 255.0,
+			"a": 255.0,
+			"g": 102.0
+		},
+		"pos": "[-938.4126 2819.7539 -103.9688]",
+		"skin": 0.0,
+		"nametag": false,
+		"name": "bank teller",
+		"bodygroups": {
+			"0": 0.0,
+			"1": 0.0
+		},
+		"vendorid": 7.0,
+		"class": "na_npc_talker"
+	}
+]
